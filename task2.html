@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Web Design</title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            text-decoration: none;
+            font-family: sans-serif;
+        }
+
+        body{
+            background-image: url("./education-with-computer-concept-banner-with-copy-space-vector.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 100vh;
+        }
+
+        header{
+            width: 100%;
+        }
+
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 25px 50px;
+        }
+
+        .rec div{
+            align-items: center;
+            width: 28px;
+            height: 4px;
+            background-color: white;
+            margin: 5px 0;
+            border-radius: 3px;
+        }
+
+        nav ul{
+            display: flex;
+            align-items: center;
+            list-style: none;
+            gap: 35px;
+        }
+
+        nav ul li a{
+            color: white;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .contact{
+            color: white;
+            font-size: 20px;
+            font-weight: 400;
+        }
+
+        .container{
+            margin-left: 80px;
+            margin-top: 120px;
+            max-width: 450px;
+        }
+
+        h1{
+            font-size: 60px;
+            color: white;
+            line-height: 1.1;
+        }
+
+        .em{
+            width: 80px;
+            height: 6px;
+            background-color: white;
+            margin: 15px 0 25px 0;
+            border-radius: 4px;
+            display: inline-block;
+        }
+
+        p{
+            color: white;
+            font-size: 18px;
+            line-height: 1.5;
+            margin-bottom: 30px;
+            
+        }
+
+        .btn{
+            padding: 12px 35px;
+            font-size: 18px;
+            border: none;
+            color: white;
+            background-color: rgb(71, 128, 235);
+            border-radius: 25px;
+            cursor: pointer;
+        }
+
+        .btn:hover{
+            background-color: #e6e6e6;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+          
+            <ul>
+                  <div class="rec">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+            <div class="contact">Contact Us</div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <h1>Simple <br> Web Design</h1>
+
+            <div class="em"></div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Magni perspiciatis dignissimos quaerat assumenda incidunt 
+                blanditiis neque mollitia nostrum ratione provident.
+            </p>
+
+            <button class="btn">Portfolio</button>
+        </div>
+    </main>
+
+</body>
+</html>
